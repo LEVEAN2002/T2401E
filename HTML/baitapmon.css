@@ -1,0 +1,191 @@
+*{margin: 0;
+    font-size: 18px}
+.grid{background-color: #ffffff }
+.wide{  
+        padding:0 1%;}
+.head{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    line-height: 3;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    
+    
+    }
+.nav a{font-weight: bold;
+    font-size: 15px;
+        color: black;
+    position: relative;}
+.nav a:before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 1%;
+    height: 2px;
+    background-color: black;
+    z-index: -2;
+    transition: all 0.2s ;
+}
+.nav a:hover:before {
+    width: 100%;
+}
+
+#headright{display: flex;
+            justify-content: space-evenly;}
+
+.logo{text-wrap: none;
+    font-weight: bold;}
+.nav{position: relative;}
+.nav  a{text-decoration: none;}
+.body{position: relative;
+    margin-top: 6%;
+    z-index: 1;}
+.cf1{width: 99%;
+    height: 99%;}
+.cf1:hover{
+    transform: scale(1.01,1.01);
+    transition: all 0.2s;
+}
+.cf2{width: 100%;
+    height: 100%;}
+.cf2:hover{ transform: scale(1.01,1.01);
+    transition: all 0.2s;}
+.center{text-align: center;
+        color: rgb(193, 198, 108);
+        font-size: x-small;
+        margin-top: 4%;}
+.center_2{text-align: center;
+          font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 1%;
+        margin-bottom: 5%;
+       }
+.center_3{display: flex;
+        width: 80%;
+       justify-content: space-between;
+        margin: 0% auto;
+        
+        }
+.center_3 a div{width: 70%;
+                box-sizing: border-box;
+             }
+.center_3 a{text-decoration: none;
+}
+.center_3 a:hover {
+    border: solid 1px  #ffd4a3;
+    border-radius: 4%;
+}
+h3{color: black;
+    font-size: 20px;}
+.cf{ max-width: 35%;
+    height: 70%;}
+.comment{
+        font-size: 16px;
+    display: -webkit-box;
+        -webkit-line-clamp: 2; /* Giới hạn số dòng hiển thị */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        margin-top: 3%;
+        color: rgb(94, 90, 90);
+      }
+h3{
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* Giới hạn số dòng hiển thị */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        margin-top: 3%;
+        
+    }
+.comment:hover{
+        color: brown;
+        width: 100%;}
+.bot{display: flex;
+    width: 90%;
+    margin: 0 auto;
+    }
+.cfl{
+   width: 90%;
+  max-height: 90%;
+  margin-top: 0;
+}
+.bot_1{flex: 1;}
+.bot_2{
+        margin-top: 5%;
+      flex: 1;}
+h2{font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+.bot_flex{margin-top: 5%;
+        display: flex;}
+.cf_bot{width: 20%;
+        margin-right:10% ;}
+.footder{display: flex;  
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin:  auto;
+        }
+.footder div{flex: 1;}
+.footder a{color: black;
+            text-decoration: none;
+            font-size: 15px;
+            }
+.footder li{
+    list-style-type: none;
+    padding: 3% 
+}
+.footder a:hover{color: hotpink;   
+                border-bottom: solid 1px black;}
+
+
+.mnft ul{
+        display: flex;      
+        justify-content: space-between;
+}
+.mnft ul li{list-style-type: none;
+            padding: 3% 0;
+    }
+ .mnft ul li a{font-size: 15px;
+                    color: black;
+                    display: block;
+                    text-decoration: none;
+                     
+                    }
+  .mnft ul li:hover{color: hotpink;
+                        border-bottom: black;}
+.footder_3{font-size: 15px;}
+.footder_3 span{font-size: 15px;}
+.footder_all{background-color: #f0edf7;
+            padding: 2% 2% ;}
+.hover_img{box-sizing: border-box;
+}
+.icon:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
