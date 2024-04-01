@@ -1,0 +1,49 @@
+.form{  line-height: 2;
+        margin: 0 auto;
+        text-align: center;
+        padding: 5%;}
+.grid{background-color: rgb(206, 218, 218);}
+.tw_fb  div{background-color: rgba(151, 95, 22, 0.564); 
+            text-decoration: none;
+            margin-top: 2%;
+            padding: auto;
+            background-color: rgb(66, 66, 166); 
+            border-radius: 5px;    
+            }
+.tw_fb  div:first-child{background-color: rgb(99, 161, 206);}
+.tw_fb  div a{color: white;
+            text-decoration: none;}
+form{text-align: left;}
+hr{margin: 5% 0;}
+form div{display: flex;
+    margin-top: 20px;
+        }
+form span{
+
+    text-align: center;
+    display: block;
+    background-color: rgb(201, 196, 190);
+    width: 30px;
+    height: 30px;
+    }
+.input_phone2{width: 60%;}
+.input{width: 100%;
+        height: 25px;
+        border: solid 1px rgba(118, 115, 115, 0.711)}
+.input_build{width: 100%;}
+.select{color: rgb(168, 153, 153);}
+
+.phone{width: 40%;}
+.submit{ background-color: rgb(32, 32, 59);
+        border: none;
+        width: 100%;
+        height: 35px;
+        color: aliceblue;
+        border-radius: 5px; }
+.bot{width: 100%;
+    }
+.bot_span{width: 100%;
+    background-color: rgb(206, 218, 218)}
+.title{font-size: 22px;
+        font-weight: bold;}
+.bot a{text-decoration: none;}
